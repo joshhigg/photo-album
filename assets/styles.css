@@ -4,11 +4,22 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 5px solid black
+}
+
+.caption {
+    display: inline=block;
+    text-align: center;
 }
 
 .title {
     text-align: center;
-    color: blueviolet;
+    color: rgb(252, 252, 252);
+    background-color: rgba(157, 238, 81, 0.582);
+    border: 5px solid rgba(255, 73, 240, 0.322);
+    padding: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .pictures-grid {
@@ -24,4 +35,25 @@
 
 .pictures {
     border-radius: 3%;
+    border: 5px solid black
+}
+
+.pictures:hover {
+	filter: brightness(.25);
+	box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
+}
+
+.image-wrapper:hover > h3 {
+	visibility: visible;
+}
+
+.image-wrapper > h3 {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgb(255, 255, 255);
+	visibility: hidden;
+	z-index: 2;
+	transition: all ease-in-out .2s;
 }
