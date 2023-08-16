@@ -4,55 +4,69 @@
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/styles.css">
         <title>Higginson Family Adventures</title>
     </head>
     <body>
         <header id="top">
-            <h1> Higginson Family Adventures</h1>
-            <!--Add image of adventure-->
+            <h1 class="title"> Higginson Family Adventures</h1>
+            <img class="theme-picture"
+                src="assets/Adventure.jpg"
+                alt= "Adventure is out there!"
+            />
+            <br>
         </header>
         <main>
-            <div>
-                <img 
-                    src="Halloween 1.jpg" 
-                    style="width: 400px; height: 400px; object-fit: cover;" 
-                    alt="Josh and Nadalee's first Halloween" 
-                />
-                <h2>First Halloween</h2>
+            <div class="pictures-grid">
+                <div class="image-wrapper">
+                    <img class="pictures"
+                        src="assets/Halloween 1.jpg" 
+                        style="width: 400px; height: 400px; object-fit: cover;" 
+                        alt="Josh and Nadalee's first Halloween" 
+                    />
+                    <h2>First Halloween</h2>
+                </div>
+                <div class="image-wrapper">
+                    <img class="pictures"
+                        src="assets/Wedding.jpg" 
+                        style="width: 400px; height: 400px; object-fit: cover; object-position: 40% 0" 
+                        alt="Josh and Nadalee's Wedding day"
+                    />
+                    <h2>Wedding Day! 3/17/2021 </h2>
+                </div>
+                <div class="image-wrapper">
+                    <img class="pictures"
+                        src="assets/Honeymoon.jpg" 
+                        style="width: 400px; height: 400px; object-fit: cover; object-position: top;" 
+                        alt="Honeymoon Kicks"
+                    />  <!--Figure out how to move cropped image down a little-->
+                    <h2>Honeymoon Kicks</h2>
+                </div>
+                <div class="image-wrapper">
+                    <img class="pictures"
+                        src="assets/Bear Lake.jpeg"
+                        style="width: 400px; height: 400px; object-fit: cover;" 
+                        alt="Bear Lake"
+                    /> <!--Figure out how to add a colored background to the images with "contain"-->
+                    <h2>Bear lake with Trevecca</h2>
+                </div>
+                <div class="image-wrapper">
+                    <img class="pictures"
+                        src="assets/San Francisco.jpeg" 
+                        style="width: 400px; height: 400px; object-fit: cover;"
+                        alt='Redwood Forrest in San Francisco'
+                    />
+                    <h2>Redwood Forrest in San Fransisco</h2>
+                </div>
+                <div class="image-wrapper">
+                    <img class="pictures"
+                        src="assets/Halloween 2.jpg" 
+                        style="width: 400px; height: 400px; object-fit: cover; object-position: top;"
+                        alt="Josh and Nadalee's second Halloween"
+                    />
+                    <h2>Halloween, round two!</h2>
+                </div>
             </div>
-            <div>
-                <img 
-                    src="Wedding.jpg" 
-                    style="width: 400px; height: 400px; object-fit: cover; object-position: 40% 0" 
-                    alt="Josh and Nadalee's Wedding day"
-                />
-                <h2>Wedding Day! 3/17/2021 </h2>
-            </div>
-            <div>
-                <img
-                    src="Honeymoon.jpg" 
-                    style="width: 400px; height: 400px; object-fit: contain;" 
-                    alt="Honeymoon Kicks"
-                /> <!--Figure out how to move cropped image down a little-->
-                <h2>Honeymoon Kicks</h2>
-            </div>
-            <div>
-                <img 
-                    src="Bear Lake.jpeg"
-                    style="width: 400px; height: 400px; object-fit: contain;" 
-                    alt="Bear Lake"
-                /> <!--Figure out how to add a colored background to the images with "contain"-->
-                <h2>Bear lake with Trevecca</h2>
-            </div>
-            <div>
-                <img 
-                    src="San Francisco.jpeg" 
-                    style="width: 400px; height: 400px; object-fit: cover; object-position: bottom;"
-                    alt='Redwood Forrest in San Francisco'
-                />
-                <h2>Redwood Forrest in San Fransisco</h2>
-            </div>
-
 
         </main>
 
